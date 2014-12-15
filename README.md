@@ -1,2 +1,2 @@
-screendoor-project-templates
+Screendoor Project Templates
 ============================
