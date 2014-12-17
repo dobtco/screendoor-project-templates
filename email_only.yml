@@ -1,0 +1,49 @@
+active: true
+sort: 35
+name: Email Only
+description: "Collect responses via email, and collaborate on them with your team."
+icon: envelope
+
+project_params:
+  enable_qa: false
+  email_responses: only
+
+disabled_features:
+  - question_and_answer
+
+default_visible_columns:
+  - label: submitted_at
+  - label: responder
+  - type: response_field
+    label: Subject
+
+statuses:
+  - name: 'Inbox'
+    color: '1c00a6'
+  - name: 'Archive'
+    color: '950013'
+  - name: 'Starred'
+    color: '005e1a'
+
+response_fields:
+  - type: ResponseFieldText
+    label: Subject
+    field_options:
+      size: small
+    map_to_email_field: subject
+  - type: ResponseFieldParagraph
+    label: Body
+    field_options:
+      size: large
+    map_to_email_field: body
+  - type: ResponseFieldFile
+    label: Attachments
+    map_to_email_field: attachments
+
+wizard:
+  details:
+    enabled: false
+  responses:
+    enabled: false
+  response_form:
+    enabled: false

@@ -1,0 +1,101 @@
+active: true
+sort: 25
+name: RFP
+description: A request for proposal template used for accepting and reviewing bids.
+icon: file-text
+
+project_params:
+  show_advanced_ratings: true
+
+default_visible_columns:
+  - type: response_field
+    label: Total Cost
+  - label: average_rating
+
+statuses:
+  - name: Open
+    color: '1c00a6'
+  - name: Rejected
+    color: '950013'
+  - name: Awarded
+    color: '005e1a'
+
+response_fields:
+  - type: ResponseFieldParagraph
+    label: Your Approach
+    required: true
+    field_options:
+      size: medium
+      description: How would you complete this project?
+  - type: ResponseFieldParagraph
+    label: Previous Work
+    required: true
+    field_options:
+      size: medium
+      description: What qualifies you to work on this project?
+  - type: ResponseFieldParagraph
+    label: Employee Details
+    required: true
+    field_options:
+      size: medium
+      description: Who would work on this project?
+  - type: ResponseFieldPrice
+    label: Total Cost
+    required: true
+
+rating_fields:
+  - type: RatingFields::NumberRange
+    label: Proposal
+    weight: 0.3
+  - type: RatingFields::NumberRange
+    label: Qualifications
+    weight: 0.2
+  - type: RatingFields::NumberRange
+    label: Budget
+    weight: 0.5
+
+wizard:
+  description:
+    recommendations: |
+      First, let's get some basic info about your RFP.
+    fields:
+      description:
+        hint: 'Paste your RFP Here'
+
+      summary:
+        hint: 'Provide a brief summary of your RFP.'
+
+      attachments:
+        hint: 'Upload any pertinent documents, including your official RFP.'
+  responses:
+    recommendations: |
+      Set the date where you will stop accepting proposals here. After this date,
+      bidders will be unable to submit responses to the RFP. If you want to assign
+      points to each individual element in your RFP, make sure that "advanced evaluations" is checked.
+  response_form:
+    name: Bid Form
+    recommendations: |
+      This is the form that bidders will use to send in answers to your RFP.
+      Screendoor helps you score and evaluate RFPs and assign points to each
+      individual element, so it's best if you build a form that has every
+      component of your RFP in line. This has the added benefit of constraining
+      the bidders to only providing you with the information you have asked for.
+
+  details:
+    fields:
+      - key: timeline
+        label: Timeline
+        as: text
+        placeholder: 'We would like to have the final deliverables by X month.'
+      - key: deliverables
+        label: Deliverables
+        as: text
+        placeholder: 'A floppy disk containing X files.'
+      - key: location
+        label: Location
+        as: text
+        placeholder: 'Work will be done remotely with meetings held on-site at X.'
+      - key: preferences
+        label: Bidder Preferences
+        as: text
+        placeholder: 'Preference given to local, woman-owned, and minority-owned businesses.'

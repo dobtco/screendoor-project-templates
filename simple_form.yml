@@ -1,0 +1,32 @@
+active: true
+sort: 90
+name: Simple Form
+description: "A super simple form, designed for quick and easy setup."
+icon: edit
+
+project_params:
+  enable_qa: false
+
+disabled_features:
+  - question_and_answer
+
+default_visible_columns:
+  - label: submitted_at
+  - label: responder
+
+statuses:
+  - name: 'Open'
+    color: '1c00a6'
+  - name: 'Closed'
+    color: '336699'
+
+response_fields:
+  - type: ResponseFieldText
+    label: Your favorite food
+    required: true
+    field_options:
+      size: medium
+
+wizard:
+  details:
+    enabled: false

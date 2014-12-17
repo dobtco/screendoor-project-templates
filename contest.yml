@@ -1,0 +1,90 @@
+active: true
+sort: 30
+name: Contest
+description: "Post a contest online, collect responses, and invite a panel of judges to rate the entries."
+icon: trophy
+
+default_visible_columns:
+  - label: responder
+  - label: submitted_at
+  - type: rating_field_average
+    label: Originality
+  - type: rating_field_average
+    label: Implementation
+
+statuses:
+  - name: 'Open'
+    color: '1c00a6'
+  - name: 'Lost'
+    color: '950013'
+  - name: 'Won'
+    color: '005e1a'
+
+response_fields:
+  - type: ResponseFieldText
+    label: Submission title
+    required: true
+    field_options:
+      size: size
+  - type: ResponseFieldParagraph
+    label: Describe your entry
+    required: true
+    field_options:
+      size: large
+  - type: ResponseFieldWebsite
+    label: Demo link
+  - type: ResponseFieldFile
+    label: Upload an image
+    field_options:
+      description: "If you'd like to support your entry with an image, you can do so here."
+
+rating_fields:
+  - type: "RatingFields::NumberRange"
+    label: Originality
+    description: How unique is this entry?
+  - type: "RatingFields::NumberRange"
+    label: Implementation
+    description: How feasible would this entry be to implement?
+
+labels:
+  - name: Missing information
+    color: 3600ff
+
+wizard:
+  description:
+    name: Landing Page
+    recommendations: |
+      <p>Be specific about what your contest is about, what the format of the results are (is this an ideation challenge?
+      An apps contest?), what the prizes are.</p>
+      <p>Challenges and initiatives often fail because their organizers are unclear.</p>
+      <p><strong>Tip:</strong> Add some examples of what you would consider to be winning entries.</p>
+      <p>This will allow your entrants to get an idea of what you are looking for.</p>
+
+    fields:
+      description:
+        label: Contest description
+        hint: 'Remember: being clear and precise is the key to great challenges.'
+
+      attachments:
+        hint: "Upload any pertinent documents, specifications, logos, documentation, or anything else necessary for the challenge."
+
+  details:
+    name: Sidebar
+    recommendations: |
+      <p>This content is going to be presented to the potential contestant as a quick way to figure out whether or
+      not they want to enter.</p>
+      <p>So think of this as at-a-glance information -- it's to let writers know that this is a software development challenge,
+      or to let developers know that this is an arts contest.</p>
+    fields:
+      - key: prizetotal
+        label: Prize Total
+        as: text
+        placeholder: '$10,000 in prizes!'
+      - key: goals
+        label: Your Entry
+        as: text
+        placeholder: 'A Demonstration of your idea via video or working website with documentation'
+      - key: judges
+        label: Judges
+        as: text
+        placeholder: 'Judy, Wopner, Dredd, and Reinhold'
