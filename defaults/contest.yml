@@ -14,11 +14,13 @@ default_visible_columns:
 
 statuses:
   - name: 'Open'
-    color: '1c00a6'
   - name: 'Lost'
-    color: '950013'
   - name: 'Won'
-    color: '005e1a'
+
+project_specifics:
+  - label: Prize Total
+  - label: Your Entry
+  - label: Judges
 
 response_fields:
   - type: ResponseFieldText
@@ -75,16 +77,3 @@ wizard:
       not they want to enter.</p>
       <p>So think of this as at-a-glance information -- it's to let writers know that this is a software development challenge,
       or to let developers know that this is an arts contest.</p>
-    fields:
-      - key: prizetotal
-        label: Prize Total
-        as: text
-        placeholder: '$10,000 in prizes!'
-      - key: goals
-        label: Your Entry
-        as: text
-        placeholder: 'A Demonstration of your idea via video or working website with documentation'
-      - key: judges
-        label: Judges
-        as: text
-        placeholder: 'Judy, Wopner, Dredd, and Reinhold'

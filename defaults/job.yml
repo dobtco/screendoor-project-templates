@@ -14,15 +14,14 @@ default_visible_columns:
 
 statuses:
   - name: Incoming
-    color: '1c00a6'
   - name: Interview
-    color: '950013'
   - name: 'Background Check'
-    color: '336699'
   - name: 'Offer'
-    color: '005e1a'
   - name: 'Rejected'
-    color: '333333'
+
+project_specifics:
+  - label: Salary
+  - label: Start date
 
 response_fields:
   - type: ResponseFieldParagraph
@@ -56,14 +55,3 @@ wizard:
         hint: Tell potential applicants what this job entails.
       summary:
         hint: Provide a very brief summary of the job.
-
-  details:
-    fields:
-      - key: salary
-        label: Salary
-        as: text
-        placeholder: "As much as you want!"
-      - key: start_date
-        label: Start date
-        as: string
-        placeholder: "You can expect to start in mid-March"

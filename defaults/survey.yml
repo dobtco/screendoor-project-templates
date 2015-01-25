@@ -11,11 +11,11 @@ default_visible_columns:
 
 statuses:
   - name: 'Triage'
-    color: '1c00a6'
   - name: 'Verified'
-    color: '950013'
   - name: 'Archived'
-    color: '005e1a'
+
+project_specifics:
+  - label: Purpose of this survey
 
 response_fields:
   - type: ResponseFieldNumber
@@ -69,7 +69,3 @@ wizard:
         This content is going to be presented to the potential respondent as a
         quick way to figure out whether or not they want to participate.
       </p>
-    fields:
-      - key: purpose
-        label: Purpose of this survey
-        as: text

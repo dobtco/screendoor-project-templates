@@ -19,11 +19,8 @@ default_visible_columns:
 
 statuses:
   - name: 'Inbox'
-    color: '1c00a6'
   - name: 'Archive'
-    color: '950013'
   - name: 'Starred'
-    color: '005e1a'
 
 response_fields:
   - type: ResponseFieldText
