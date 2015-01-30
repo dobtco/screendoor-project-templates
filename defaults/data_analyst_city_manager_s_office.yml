@@ -1,0 +1,655 @@
+---
+project_params:
+  after_response_email: true
+  after_response_page: true
+  after_response_page_html: Thank you for applying for the position of Data Analyst
+    in the City Manager's Office of Pleasantville!
+  identification_level: 2
+  automatically_approve_edits: false
+  automatically_release_responses_for_edits: false
+  contact_email: janedoe@pleasantville.ca.gov
+  description: 'About the Department</strong><br><br>
+The City of Pleasantville is one of the top  ten cities in United States
+    in which to live, work, and do business.  Moreover, Pleasantville  is the center
+    of cultural, government and economic activity for the  region. Pleasantville employees
+    embraced Integrity, Innovation, Excellence, Collaboration,  Respect and Celebration.  The
+    City Manager''s Office is looking for an  individual whose values align with the
+    values of the City''s employees. <br> <br>The City Manager''s Office provides
+    strategic leadership that  supports the Mayor and the City Council and motivates
+    and challenges the  organization to deliver high quality services that meet the
+    community''s  needs.<br><br><strong>Position and Duties<br></strong>
+  The City Manager''s Office is seeking a  motivated and experienced individual
+    to join the City Manager''s Office  and lead the creation of a new Data Analytics
+    Team.  Working closely  with the City Manager''s Budget Office, the Data Analytics
+    Senior  Executive Analyst will undertake a variety of activities to establish
+    a  team that creates, executes and coordinates data analytics projects  focused
+    on performance improvement across a wide range of City  services. The
+    major duties and responsibilities include:<strong><br> </strong>Serves as the
+    lead of the new Data  Analytics Team.  Works to establish this team within the
+    City of Pleasantville, including developing a network of individuals within the City
+    who  will support and champion the role of data analytics to improve the  delivery
+    of public services.  This will include leveraging the technical  resources of
+    the Information Technology Department and the subject  matter expertise of the
+    staff from various departments. <br>* Develops a comprehensive plan to implement
+    the Data Analytics  Team, including the establishment of policies and procedures,  preliminary
+    metrics for success, and guidelines for how to develop and  execute initiatives.
+    <br>* Responsible for completing a data inventory of the City, in  coordination
+    with the Information Technology Department and through  collaboration with departments
+    city-wide.   <br>* Studies City departments, operations and services to inform  analysis
+    and make recommendations to improve quality and effectiveness  of service delivery.  <br>*
+    Serves as a Project Manager as well as executes analytics projects within the
+    City.   <br>* Supports and coordinates with staff that are pursuing open data
+    initiatives. <br>* Provides support to the City Manager, Assistant City Manager,  Deputy
+    City Managers and Budget Director with professional analytical  and administrative
+    work of considerable difficulty, providing  interpretation of data and periodic
+    status reports regarding assigned  projects and recommend corrective actions when
+    necessary. <br>* Coordinates analytics projects with City departments, and outside  agencies.  Works
+    collaboratively city-wide to deliver key business  insights from transactional
+    data.  <br>* Uses and develops various tools, programs and techniques to  gather,
+    analyze and understand large amounts of transaction and other  types of data;
+    conducts in-depth analysis of datasets using tools such  as Microsoft Power BI,
+    PowerPivot and/or other BI tools. <br>* Uses business intelligence analytics to
+    support business  operations or to make recommendations to improve business unit  performance.
+    <br>* Authors, reviews, and edits documents, reports, memoranda and briefing materials
+    at all levels of the organization. <br>* Schedules, plans, coordinates, and review
+    project activities related to data analytics.<br><br><strong>Minimum Qualifications<br>Any
+    combination of training and experience equivalent to: <br> <br>Education:  Bachelor''s
+    Degree from an accredited college or  university; Master''s Degree in public administration,
+    business  administration or related field is preferred, and can be substituted
+    for  a portion of the required experience. <br> <br>Experience:  Four (4) years
+    of professional level analytic and/or administrative experience.   <br>  <br>Employment
+    Eligibility:  Federal law requires all employees to  provide verification of their
+    eligibility to work in this country.   Please be informed that the City of Pleasantville
+    will not prepare or file a  labor condition application with the Department of
+    Labor.<br><br> Competencies<br> The successful candidate will have strong  analytical, organizational,
+    writing and verbal skills, enjoy handling  multiple assignments simultaneously,
+    and work well under pressure within  tight deadlines.  The ideal candidate will
+    possess the most desirable  combination of training, skills, and experience, as
+    demonstrated in past  and current employment history.  Desirable experience, knowledge
+    and  skills for this position include: <br> <br>* Knowledge of theory, principles,
+    practices, and techniques of  public administration, City government structure
+    and processes,  organizational development and management, and budget/fiscal operations  analysis.
+    <br>* Strong project management and interpersonal skills to allow for  inter-departmental
+    team collaboration and tenacity necessary to overcome  pushback and persuade others.
+    <br>* Excellent verbal and written communication skills; an ability to  engage
+    in storytelling about data that is both straightforward and  persuasive.  Demonstration
+    of experience in translating analytical model  findings to business insights and
+    communicating them to a non-technical  audience is preferred. <br>* Demonstrated
+    ability to analyze volumes of data that yields  insight into complex service delivery
+    issues.  Knowledge and breadth of  experience across an array of statistical analytic
+    techniques. <br>* Ability to understand and quickly identify key issues related
+    to  decisions and recommendations, to make recommendations in difficult and  complex
+    situations, and to develop consensus. <br>* Ability to manage multiple projects
+    with short deadlines while  preserving high quality of work with an attention
+    to detail and  accuracy. <br>* Politically astute with a commitment to the City
+    organization and community. <br>* Ability to become quickly proficient with a
+    wide range of  technology tools and evaluate the potential to improve work quality
+    and  productivity.  Experience with open data platforms such as Junar or  Socrata
+    and data analytics tools such as Microsoft Power BI, PowerPivot  and/or other
+    BI tools are a plus. <br>* Motivated self-starter who likes to own the work product,
+    both as  an individual contributor and as a team member, and who is comfortable  driving
+    development from a sketch of an idea to a polished product.<br><br>Selection Process<br></strong>The selection
+    process will consist of an  evaluation of the applicant''s training and experience
+    based on the  application and responses to the Job Specific Questions. Only the  candidates
+    whose backgrounds best match the position will be invited to  proceed in the selection
+    process.  Additional phases of the selection  process will consist of one or more
+    interviews. <strong><br></strong><br>You may answer these questions directly in  the
+    on-line application system or on a separate document and then cut  and paste your
+    answers into the appropriate spaces when prompted.  <br> <br>You must answer all
+    job-specific questions in order to be considered  for this vacancy or your application
+    will be deemed incomplete and  withheld from further consideration.  <strong><br><br>Submission
+    of a resume is optional.  The  Education History and Work History sections of
+    the application must be  completed or the application will be considered to be
+    incomplete and may  be withheld from further consideration.  <br></strong><br>'
+  email_blocked_senders: []
+  email_responses: 1
+  enable_qa: true
+  enable_signatures: false
+  hide_responder_names: true
+  iframe_skip_preview: false
+  payment_amount_cents: 
+  require_payment: false
+  show_advanced_ratings: true
+  show_askers: false
+  show_respondents: false
+  statuses_visible_to_responders: false
+  summary: ''
+response_fields:
+- label: Contact Information
+  field_options: {}
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldSectionBreak
+- label: test
+  field_options:
+    options: []
+  required: false
+  blind: false
+  admin_only: false
+  type: ResponseFieldText
+- label: Address
+  field_options: {}
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldAddress
+- label: test
+  field_options:
+    options: []
+  required: false
+  blind: false
+  admin_only: false
+  type: ResponseFieldText
+- label: test
+  field_options:
+    options: []
+  required: false
+  blind: false
+  admin_only: false
+  type: ResponseFieldText
+- label: Phone Number
+  field_options: {}
+  required: false
+  blind: false
+  admin_only: false
+  type: ResponseFieldNumber
+- label: Resume
+  field_options:
+    size: medium
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldSectionBreak
+- label: test
+  field_options:
+    options: []
+  required: false
+  blind: false
+  admin_only: false
+  type: ResponseFieldText
+- label: test
+  field_options:
+    options: []
+  required: false
+  blind: false
+  admin_only: false
+  type: ResponseFieldText
+- label: Upload your resume
+  field_options:
+    description: 'Although your resume may have all your experience and education
+      details, please make sure to complete each application section to ensure that
+      your information is accurately processed during our screening process. '
+  required: false
+  blind: false
+  admin_only: false
+  type: ResponseFieldFile
+- label: test
+  field_options:
+    options: []
+  required: false
+  blind: false
+  admin_only: false
+  type: ResponseFieldText
+- label: Untitled
+  field_options: {}
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldPageBreak
+- label: Untitled
+  field_options:
+    description: " \t\nYou must enter your Application Information in the fields below
+      if you want your information to be considered during the selection process.
+      Include any relevant Work Experience, Educational History, Job Training, Licenses
+      and Certificates and Languages. If you do not enter your information here, your
+      application may be screened out. Attaching a resume alone is not sufficient. "
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldBlockOfText
+- label: Education History
+  field_options:
+    size: medium
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldSectionBreak
+- label: Highest Education Level
+  field_options:
+    options:
+    - label: Graduated?
+      checked: false
+    include_blank_option: false
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldDropdown
+- label: Untitled
+  field_options:
+    description: Post-Secondary Education Details
+    size: small
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldBlockOfText
+- label: Country
+  field_options:
+    options:
+    - label: Graduated?
+      checked: false
+    include_blank_option: false
+  required: false
+  blind: false
+  admin_only: false
+  type: ResponseFieldText
+- label: State
+  field_options:
+    options:
+    - label: Graduated?
+      checked: false
+    include_blank_option: false
+  required: false
+  blind: false
+  admin_only: false
+  type: ResponseFieldText
+- label: School
+  field_options:
+    options:
+    - label: Graduated?
+      checked: false
+    include_blank_option: false
+  required: false
+  blind: false
+  admin_only: false
+  type: ResponseFieldText
+- label: Major
+  field_options:
+    options:
+    - label: Graduated?
+      checked: false
+    include_blank_option: false
+  required: false
+  blind: false
+  admin_only: false
+  type: ResponseFieldText
+- label: Degree
+  field_options:
+    options:
+    - label: Graduated?
+      checked: false
+    include_blank_option: false
+  required: false
+  blind: false
+  admin_only: false
+  type: ResponseFieldText
+- label: Average Grade
+  field_options:
+    options:
+    - label: Graduated?
+      checked: false
+    include_blank_option: false
+  required: false
+  blind: false
+  admin_only: false
+  type: ResponseFieldText
+- label: ''
+  field_options:
+    options:
+    - label: Graduated?
+      checked: false
+    include_blank_option: false
+  required: false
+  blind: false
+  admin_only: false
+  type: ResponseFieldCheckboxes
+- label: Date Issued
+  field_options:
+    options:
+    - label: Graduated?
+      checked: false
+    include_blank_option: false
+  required: false
+  blind: false
+  admin_only: false
+  type: ResponseFieldDate
+- label: References
+  field_options:
+    size: medium
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldSectionBreak
+- label: 'Reference #1'
+  field_options: {}
+  required: false
+  blind: false
+  admin_only: false
+  type: ResponseFieldFile
+- label: 'Reference #2 '
+  field_options: {}
+  required: false
+  blind: false
+  admin_only: false
+  type: ResponseFieldFile
+- label: 'Reference #3'
+  field_options: {}
+  required: false
+  blind: false
+  admin_only: false
+  type: ResponseFieldFile
+- label: Work Experience
+  field_options:
+    size: medium
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldSectionBreak
+- label: Start Date
+  field_options: {}
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldDate
+- label: End Date
+  field_options: {}
+  required: false
+  blind: false
+  admin_only: false
+  type: ResponseFieldDate
+- label: Employer
+  field_options: {}
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldText
+- label: Ending Job Title
+  field_options: {}
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldText
+- label: Job Duties
+  field_options: {}
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldParagraph
+- label: Employer Address
+  field_options: {}
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldAddress
+- label: Untitled Copy
+  field_options: {}
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldPageBreak
+- label: Questionnaire
+  field_options:
+    size: medium
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldSectionBreak
+- label: Untitled
+  field_options:
+    description: " \t\n\t\t\t\t\t\nPleasantville Municipal Code Section 3.04.950 defines
+      immediate family members as wife, husband, domestic partner, mother, father,
+      brother, sister, son, daughter; mother/father/brother/sister/son/daughter-in-law;
+      grandmother/father/son/daughter; step-mother/father/son/daughter; uncle, aunt,
+      niece or nephew. These familial relationships include blood, marriage and domestic
+      partner-based relationships."
+    size: small
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldBlockOfText
+- label: Do you have any immediate family members who are currently employed with
+    the City of Pleasantville?  If yes, you must include a response indicating the
+    first and last name, job title, department, and relationship of each family member
+    employed with the City.
+  field_options:
+    options:
+    - label: 'Yes'
+      checked: false
+    - label: 'No'
+      checked: false
+    description: ''
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldRadio
+- label: 'If yes, please include family member details:'
+  field_options: {}
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldText
+- label: Are you a current City of Pleasantville employee?
+  field_options:
+    options:
+    - label: 'Yes'
+      checked: false
+    - label: 'No'
+      checked: false
+    description: ''
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldRadio
+- label: If not, what is your current annual salary (full-time) or hourly rate (part-time)?
+  field_options: {}
+  required: false
+  blind: false
+  admin_only: false
+  type: ResponseFieldText
+- label: If you are not a current or former City employee, did you hear about this
+    job opportunity from  a City employee?
+  field_options:
+    options:
+    - label: 'Yes'
+      checked: false
+    - label: 'No'
+      checked: false
+    description: ''
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldRadio
+- label: If yes, please provide the name of the employee (and the department, if known).
+  field_options: {}
+  required: false
+  blind: false
+  admin_only: false
+  type: ResponseFieldText
+- label: Do you have experience working in local government(s) that  includes working
+    with Executive Management, government bodies and/or City Councils, and the community?
+  field_options:
+    options:
+    - label: 'Yes'
+      checked: false
+    - label: 'No'
+      checked: false
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldRadio
+- label: Please describe your experience working in local government(s), including
+    your level of experience working with Executive Management, government bodies
+    and/or City Councils, and the community.
+  field_options: {}
+  required: false
+  blind: false
+  admin_only: false
+  type: ResponseFieldParagraph
+- label: " \tDo you have experience with data analytics and its application to drive
+    service delivery improvements or business outcomes?"
+  field_options:
+    options:
+    - label: 'Yes'
+      checked: false
+    - label: 'No'
+      checked: false
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldRadio
+- label: " \tIf so, please describe your experience."
+  field_options: {}
+  required: false
+  blind: false
+  admin_only: false
+  type: ResponseFieldParagraph
+- label: Do you have experience with projects or reports requiring complex data analysis?
+  field_options:
+    options:
+    - label: 'Yes'
+      checked: false
+    - label: 'No'
+      checked: false
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldRadio
+- label: " \tIf so, please provide an example; describe the process you applied to
+    complete the project, your specific role, the outcome and highlight any technical
+    skills employed by you to complete analysis as well as the size or complexity
+    of any datasets used."
+  field_options: {}
+  required: false
+  blind: false
+  admin_only: false
+  type: ResponseFieldParagraph
+- label: Do you have a Bachelor's Degree or higher in a related field from an accredited
+    college or university?
+  field_options:
+    options:
+    - label: 'Yes'
+      checked: false
+    - label: 'No'
+      checked: false
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldRadio
+- label: " \tIf yes, what is the degree, major and educational institution? If no,
+    how many college semester units have you completed and the coursework?"
+  field_options: {}
+  required: false
+  blind: false
+  admin_only: false
+  type: ResponseFieldParagraph
+- label: " \tDo you have experience with completing work products that require coordination
+    amongst various stakeholders, departments, and offices?"
+  field_options:
+    options:
+    - label: 'Yes'
+      checked: false
+    - label: 'No'
+      checked: false
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldRadio
+- label: " \tIf so, please describe an assignment that required a quick turnaround
+    and coordination with these various stakeholders, departments, and offices?  What
+    was your role? What was the desired outcome? What would you do differently if
+    the actual outcome differed from the desired one?  In addition, identify what
+    you think are the most critical factors in building trust and respect with stakeholders."
+  field_options: {}
+  required: false
+  blind: false
+  admin_only: false
+  type: ResponseFieldParagraph
+- label: Untitled
+  field_options: {}
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldPageBreak
+- label: Referral Information
+  field_options: {}
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldSectionBreak
+- label: How did you find out about the job?
+  field_options:
+    options:
+    - label: Agency
+      checked: false
+    - label: College Recommendation
+      checked: false
+    - label: College Recruiting
+      checked: false
+    - label: Email
+      checked: false
+    - label: Employee
+      checked: false
+    - label: Executive Referral
+      checked: false
+    - label: Executive Search
+      checked: false
+    - label: Former Employee
+      checked: false
+    - label: Internet
+      checked: false
+    - label: 'Job Fair '
+      checked: false
+    - label: Job Posting
+      checked: false
+    - label: Journal/Publication
+      checked: false
+    - label: Newspaper
+      checked: false
+    - label: Phone Inquiry
+      checked: false
+    - label: Television/Radio
+      checked: false
+    - label: Unsolicited
+      checked: false
+    - label: Walk-in
+      checked: false
+    include_blank_option: false
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldDropdown
+- label: Specific Referral Source
+  field_options: {}
+  required: false
+  blind: false
+  admin_only: false
+  type: ResponseFieldText
+- label: Are you a former employee?
+  field_options:
+    options:
+    - label: 'Yes'
+      checked: false
+    - label: 'No'
+      checked: false
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldRadio
+rating_fields:
+- label: Work Experience
+  description: Has the candidate's work experience prepared him or her for the duties of the position?
+  weight: 1.0
+  type: RatingFields::NumberRange
+  response_field: Job Duties
+- label: 'Suitability '
+  description: Is this candidate a good fit for this position?
+  weight: 1.0
+  type: RatingFields::NumberRange
+  response_field: 
+labels: []
+statuses:
+- name: Incoming
+- name: Interview
+- name: Background Check
+- name: Offer
+- name: Rejected
