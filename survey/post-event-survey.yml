@@ -1,0 +1,141 @@
+---
+project_params:
+  after_response_email: false
+  after_response_page: true
+  after_response_page_html: Thank you for taking the time to share your thoughts!
+    We hope to see you at the next Maptime Sacramento event.<br><br>Until then, happy
+    mapping!
+  identification_level: 1
+  automatically_approve_edits: false
+  automatically_release_responses_for_edits: false
+  contact_email: sacramento@maptime.io
+  description: We want Maptime Sacramento to dive into topics you're interested in!
+    Please fill out the following survey so we can make sure our meetings suit your
+    goals.<br><br>Your feedback will help us determine which tools and topics to cover
+    in the future and, more generally, it will hold us accountable! We want to make
+    Maptime Sacramento the best it can be.
+  email_blocked_senders: []
+  email_responses: 1
+  enable_qa: false
+  enable_signatures: false
+  hide_responder_names: false
+  iframe_skip_preview: false
+  payment_amount_cents: 
+  require_payment: false
+  show_advanced_ratings: false
+  show_askers: true
+  show_respondents: true
+  statuses_visible_to_responders: false
+  summary: ''
+response_fields:
+- label: What do you want to learn?
+  field_options:
+    options:
+    - label: Great
+      checked: false
+    - label: Adequate
+      checked: false
+    - label: Poor
+      checked: false
+    include_other_option: true
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldCheckboxes
+- label: What did we do well today?
+  field_options: {}
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldParagraph
+- label: What could we have done better?
+  field_options: {}
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldParagraph
+- label: How was the meeting space?
+  field_options:
+    options:
+    - label: Great
+      checked: false
+    - label: Adequate
+      checked: false
+    - label: Poor
+      checked: false
+    include_other_option: true
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldRadio
+- label: Which start time is most convenient for you?
+  field_options:
+    options:
+    - label: Great
+      checked: false
+    - label: Adequate
+      checked: false
+    - label: Poor
+      checked: false
+    include_other_option: true
+  required: false
+  blind: false
+  admin_only: false
+  type: ResponseFieldRadio
+- label: What would you like to see more of?
+  field_options:
+    options:
+    - label: Great
+      checked: false
+    - label: Adequate
+      checked: false
+    - label: Poor
+      checked: false
+    include_other_option: true
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldCheckboxes
+- label: How would you like us to communicate with you?
+  field_options:
+    options:
+    - label: Great
+      checked: false
+    - label: Adequate
+      checked: false
+    - label: Poor
+      checked: false
+    include_other_option: true
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldCheckboxes
+- label: Is there something you'd be interested in teaching at a future Maptime?
+  field_options:
+    description: ''
+  required: false
+  blind: false
+  admin_only: false
+  type: ResponseFieldParagraph
+- label: Your name
+  field_options:
+    description: Share only if you want us to contact you about teaching.
+  required: false
+  blind: false
+  admin_only: false
+  type: ResponseFieldText
+- label: Your email address
+  field_options:
+    description: Share only if you want us to contact you about teaching.
+  required: false
+  blind: false
+  admin_only: false
+  type: ResponseFieldEmail
+rating_fields: []
+labels:
+- name: Missing information
+  color: 3600ff
+- name: Questionable
+  color: '336699'
+statuses:
+- name: Reviewed by co-organizers
