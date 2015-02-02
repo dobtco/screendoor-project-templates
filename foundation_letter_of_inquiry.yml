@@ -1,0 +1,197 @@
+---
+project_params:
+  after_response_email: true
+  after_response_page: true
+  after_response_page_html: Thank you for submitting a letter of inquiry to The Beta
+    Foundation!<br>
+  identification_level: 2
+  automatically_approve_edits: false
+  automatically_release_responses_for_edits: false
+  contact_email: benefactor@betafound.org
+  description: "<strong></strong>The Beta Foundation believes all communities deserve
+    access to safe, clean, and affordable water. We provide general operating support
+    and project funds to organizations that contribute to this goal.<br><br>Five years
+    ago, in an effort to expand the scope of our grantmaking, we began soliciting
+    letters of inquiry from interested organizations. Now approximately 25% of our
+    grants are awarded to projects brought to our attention by a letter of inquiry.<br><strong><br>Eligibility</strong><br>\nOnce
+    you have closely read the Foundation's program guidelines and have determined
+    \ that the Foundation is accepting proposals in your area of work, the next  step
+    is to submit a letter of inquiry. <br><br>\n<strong>Deadlines</strong><br>We admit
+    letters of inquiry on a rolling basis.<br><br><strong>Response</strong><br>  \tWe
+    will send you an acknowledgment immediately to confirm  that we have received
+    your letter of inquiry, and we will direct it to the  appropriate staff members
+    for review. The review process for eligible  inquiries can take up to eight weeks,
+    unless otherwise noted elsewhere.<br><br><br>  \tAll material submitted becomes
+    the property of the Beta Foundation. The Foundation sometimes submits inquiries
+    or proposals for  confidential outside review.<br>"
+  email_blocked_senders: []
+  email_responses: 1
+  enable_qa: false
+  enable_signatures: true
+  hide_responder_names: false
+  iframe_skip_preview: false
+  payment_amount_cents: 
+  require_payment: false
+  show_advanced_ratings: false
+  show_askers: true
+  show_respondents: true
+  statuses_visible_to_responders: false
+  summary: ''
+response_fields:
+- label: Organization Information
+  field_options: {}
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldSectionBreak
+- label: Organization name
+  field_options: {}
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldText
+- label: Organization acronym (if commonly used)
+  field_options: {}
+  required: false
+  blind: false
+  admin_only: false
+  type: ResponseFieldText
+- label: Parent organization or fiscal sponsor (if any)
+  field_options: {}
+  required: false
+  blind: false
+  admin_only: false
+  type: ResponseFieldText
+- label: Name of Executive Director
+  field_options: {}
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldText
+- label: Organization address
+  field_options: {}
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldAddress
+- label: Organization website, if any
+  field_options: {}
+  required: false
+  blind: false
+  admin_only: false
+  type: ResponseFieldText
+- label: Name of principal contact
+  field_options: {}
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldText
+- label: Title of principal contact
+  field_options: {}
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldText
+- label: Email address of principal contact
+  field_options: {}
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldEmail
+- label: Phone number of principal contact
+  field_options: {}
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldText
+- label: Project Information
+  field_options: {}
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldSectionBreak
+- label: Name or topic of proposed project
+  field_options:
+    description: ''
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldText
+- label: What is the purpose and nature of the proposed work?
+  field_options:
+    description: ''
+    min_max_length_units: words
+    maxlength: '200'
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldParagraph
+- label: What is the significance of the issue addressed by the project and how does
+    it relate to a stated Beta Foundation program strategy?
+  field_options:
+    description: ''
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldParagraph
+- label: How will your organization's project address this issue?
+  field_options:
+    description: Describe how the project activities will lead to the desired outcomes.
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldParagraph
+- label: In what geographic area will the work take place?
+  field_options:
+    description: ''
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldParagraph
+- label: What is the project's time frame?
+  field_options:
+    description: ''
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldParagraph
+- label: Amount of funding you are requesting from the Beta Foundation
+  field_options:
+    description: ''
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldPrice
+- label: Total cost of project
+  field_options:
+    description: ''
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldPrice
+rating_fields:
+- label: Program alignment
+  description: How well-aligned is the applicant's project to the Foundation's program
+    goals and strategies?
+  weight: 1.0
+  type: RatingFields::Stars
+  response_field: What is the significance of the issue addressed by the project and
+    how does it relate to a stated Beta Foundation program strategy?
+- label: Strength of proposed project strategy
+  description: |-
+    Does the applicant have a coherent theory of change?
+    Are project activities clearly mapped to proposed outcomes?
+  weight: 1.0
+  type: RatingFields::Stars
+  response_field: How will your organization's project address this issue?
+- label: Next steps
+  description: Shall the Foundation invite the applicant to submit a proposal for
+    this project?
+  weight: 1.0
+  type: RatingFields::Stars
+  response_field: 
+labels: []
+statuses:
+- name: Open for review
+- name: Dismissed
+- name: Invite proposal submission
