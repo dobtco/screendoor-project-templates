@@ -125,4 +125,5 @@ labels:
 - name: Questionable
   color: '336699'
 statuses:
-- name: Reviewed by co-organizers
+- name: Open for review
+- name: Reviewed
