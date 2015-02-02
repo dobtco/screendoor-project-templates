@@ -31,11 +31,19 @@ response_fields:
 - label: What do you want to learn?
   field_options:
     options:
-    - label: Great
+    - label: Cartography
       checked: false
-    - label: Adequate
+    - label: Programming basics
       checked: false
-    - label: Poor
+    - label: Web basics (HTML, CSS, Javascript)
+      checked: false
+    - label: Web map APIs (Leaflet, OpenLayers, etc.)
+      checked: false
+    - label: Git and Github basics
+      checked: false
+    - label: Geospatial concepts
+      checked: false
+    - label: Data management and analysis
       checked: false
     include_other_option: true
   required: true
@@ -49,6 +57,12 @@ response_fields:
   admin_only: false
   type: ResponseFieldParagraph
 - label: What could we have done better?
+  field_options: {}
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldParagraph
+- label: What would you like to see more of?
   field_options: {}
   required: true
   blind: false
@@ -68,65 +82,38 @@ response_fields:
   blind: false
   admin_only: false
   type: ResponseFieldRadio
-- label: Which start time is most convenient for you?
+- label: How should we communicate with you?
   field_options:
     options:
-    - label: Great
+    - label: Meetup
       checked: false
-    - label: Adequate
+    - label: Twitter
       checked: false
-    - label: Poor
+    - label: Mailing list
       checked: false
-    include_other_option: true
-  required: false
-  blind: false
-  admin_only: false
-  type: ResponseFieldRadio
-- label: What would you like to see more of?
-  field_options:
-    options:
-    - label: Great
-      checked: false
-    - label: Adequate
-      checked: false
-    - label: Poor
+    - label: Blog
       checked: false
     include_other_option: true
   required: true
   blind: false
   admin_only: false
   type: ResponseFieldCheckboxes
-- label: How would you like us to communicate with you?
-  field_options:
-    options:
-    - label: Great
-      checked: false
-    - label: Adequate
-      checked: false
-    - label: Poor
-      checked: false
-    include_other_option: true
-  required: true
-  blind: false
-  admin_only: false
-  type: ResponseFieldCheckboxes
-- label: Is there something you'd be interested in teaching at a future Maptime?
-  field_options:
-    description: ''
+- label: Is there something you would like to teach at a future Maptime?
+  field_options: {}
   required: false
   blind: false
   admin_only: false
   type: ResponseFieldParagraph
 - label: Your name
   field_options:
-    description: Share only if you want us to contact you about teaching.
+    description: Only if you want us to contact you about teaching.
   required: false
   blind: false
   admin_only: false
   type: ResponseFieldText
 - label: Your email address
   field_options:
-    description: Share only if you want us to contact you about teaching.
+    description: Only if you want us to contact you about teaching.
   required: false
   blind: false
   admin_only: false
