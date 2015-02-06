@@ -1,0 +1,128 @@
+---
+project_params:
+  after_response_email: false
+  after_response_page: true
+  after_response_page_html: Thank you for your request. An employee of the
+    City of San Narciso will respond within ten days. The City may invite
+    you to view the records in person, offer to send you an electronic copy of the
+    record, or ask for a 14-day extension.
+  identification_level: 1
+  automatically_approve_edits: false
+  automatically_release_responses_for_edits: false
+  contact_email: recordsrequest@san-narciso.ca.gov
+  description: 'Request a public record from the City of San Narciso.<br><br>The California
+    Public Records Act is designed to give the public access to information held by
+    public agencies: "public records are open to inspection at all times during the
+    office hours of the&hellip;agency and every person has a right to inspect any
+    public record, except as...provided, [and to receive] an exact copy” of an
+    identifiable record unless impracticable. (§ 6253).<br><br>According to the Public
+    Records Act, the City of San Narciso must:<br><ul><li>help you identify records
+    and information relevant to your request,</li><li>allow you to view the records
+    immediately, for free, during business hours,</li><li>respond within 10 days</li><li>and
+    justify withholding of any records by showing that public interest in confidentiality
+    outweighs public interest in disclosure.</li></ul><br><br>The City of San Narciso may
+    ask for a 14-day extension if we are required to sort through a large number of
+    documents, retrieve the document from a facility outside of City Hall, consult
+    with another agency, or write a computer program to retrieve data you have requested.<br>'
+  email_blocked_senders: []
+  email_responses: 1
+  enable_qa: false
+  enable_signatures: false
+  hide_responder_names: false
+  iframe_skip_preview: false
+  payment_amount_cents: 
+  require_payment: false
+  show_advanced_ratings: false
+  show_askers: true
+  show_respondents: true
+  statuses_visible_to_responders: false
+  summary: Submit a public records request to the City of San Narciso.
+response_fields:
+- label: Your Request
+  field_options: {}
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldSectionBreak
+- label: What information are you trying to find?
+  field_options:
+    description: Pursuant to the California Public Records Act, your entire request,
+      including the contact information you provide, may be requested by an interested
+      party.
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldParagraph
+- label: Is there a date limit to your request? If so, enter it here.
+  field_options:
+    description: ''
+  required: false
+  blind: false
+  admin_only: false
+  type: ResponseFieldDate
+- label: Document type
+  field_options:
+    description: ''
+  required: false
+  blind: false
+  admin_only: false
+  type: ResponseFieldText
+- label: City Department
+  field_options:
+    description: ''
+    options:
+    - label: Administrative Services Department
+      checked: false
+    - label: City Attorney
+      checked: false
+    - label: City Council
+      checked: false
+    - label: City Manager's Office
+      checked: false
+    - label: Department of Community Development
+      checked: false
+    - label: Fire Department
+      checked: false
+    - label: Police Department
+      checked: false
+    - label: Public Works
+      checked: false
+  required: false
+  blind: false
+  admin_only: false
+  type: ResponseFieldDropdown
+- label: Contact Information
+  field_options: {}
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldSectionBreak
+- label: Your email address
+  field_options:
+    description: ''
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldEmail
+- label: Your name
+  field_options:
+    description: ''
+  required: false
+  blind: false
+  admin_only: false
+  type: ResponseFieldEmail
+- label: Your phone number
+  field_options:
+    description: ''
+    units: ''
+  required: false
+  blind: false
+  admin_only: false
+  type: ResponseFieldText
+rating_fields: []
+labels: []
+statuses:
+- name: Open for review
+- name: Under department review
+- name: Dismissed
+- name: Fulfilled
