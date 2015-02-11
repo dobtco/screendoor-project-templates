@@ -35,7 +35,7 @@ project_params:
   show_advanced_ratings: false
   show_askers: true
   show_respondents: true
-  statuses_visible_to_responders: false
+  statuses_visible_to_responders: true
   summary: Submit a public records request to the City of San Narciso.
 response_fields:
 - label: Additional Contact Information
