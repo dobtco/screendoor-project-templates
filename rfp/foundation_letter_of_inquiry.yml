@@ -3,7 +3,7 @@ project_params:
   after_response_email: true
   after_response_page: true
   after_response_page_html: Thank you for submitting a letter of inquiry to The Beta
-    Foundation!<br>
+    Foundation!
   identification_level: 2
   automatically_approve_edits: false
   automatically_release_responses_for_edits: false
