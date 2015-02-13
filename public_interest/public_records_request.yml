@@ -1,5 +1,6 @@
 ---
 project_params:
+  name: Public Records Request
   after_response_email: false
   after_response_page: true
   after_response_page_html: Thank you for your request. An employee of the City of

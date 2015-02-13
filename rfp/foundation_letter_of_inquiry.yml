@@ -1,5 +1,6 @@
 ---
 project_params:
+  name: Foundation LOI
   after_response_email: true
   after_response_page: true
   after_response_page_html: Thank you for submitting a letter of inquiry to The Beta
@@ -30,7 +31,7 @@ project_params:
   enable_signatures: true
   hide_responder_names: false
   iframe_skip_preview: false
-  payment_amount_cents: 
+  payment_amount_cents:
   require_payment: false
   show_advanced_ratings: false
   show_askers: true
@@ -189,7 +190,7 @@ rating_fields:
     this project?
   weight: 1.0
   type: RatingFields::Stars
-  response_field: 
+  response_field:
 labels: []
 statuses:
 - name: Open for review

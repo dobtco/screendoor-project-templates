@@ -1,5 +1,6 @@
 ---
 project_params:
+  name: City Data Analyst
   after_response_email: true
   after_response_page: true
   after_response_page_html: Thank you for applying for the position of Data Analyst
@@ -111,7 +112,7 @@ project_params:
   enable_signatures: false
   hide_responder_names: true
   iframe_skip_preview: false
-  payment_amount_cents: 
+  payment_amount_cents:
   require_payment: false
   show_advanced_ratings: true
   show_askers: false
@@ -610,7 +611,7 @@ rating_fields:
   description: Is this candidate a good fit for this position?
   weight: 1.0
   type: RatingFields::NumberRange
-  response_field: 
+  response_field:
 labels: []
 statuses:
 - name: Incoming
