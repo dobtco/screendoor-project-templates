@@ -1,9 +1,10 @@
 ---
 project_params:
+  name: Post-event Survey
   after_response_email: false
   after_response_page: true
   after_response_page_html: Thank you for taking the time to share your thoughts!
-    We hope to see you at the next Maptime Sacramento event.<br><br>Until then, happy
+    We hope to see you at the next Maptime Sacramento event. Until then, happy
     mapping!
   identification_level: 1
   automatically_approve_edits: false
@@ -20,7 +21,7 @@ project_params:
   enable_signatures: false
   hide_responder_names: false
   iframe_skip_preview: false
-  payment_amount_cents: 
+  payment_amount_cents:
   require_payment: false
   show_advanced_ratings: false
   show_askers: true
