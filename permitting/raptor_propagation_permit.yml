@@ -35,6 +35,7 @@ project_params:
     the application is true to the best of your knowledge. Be sure to read the statement
     and re-read the application and your answers before
     signing."
+  name: "Raptor propagation permit"
   email_blocked_senders: []
   email_responses: 1
   enable_qa: false
