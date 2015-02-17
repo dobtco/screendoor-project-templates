@@ -1,0 +1,446 @@
+---
+project_params:
+  after_response_email: true
+  after_response_page: true
+  after_response_page_html: "Thank you for apply for a permit from the U.S. Fish and Wildlife
+    Service. Allow at least 60 days for your application to be processed. Some applications
+    may take longer than 90 days to process."
+  identification_level: 2
+  automatically_approve_edits: false
+  automatically_release_responses_for_edits: false
+  contact_email: raptorpermits@fws.gov
+  description: "<strong>PERMIT APPLICATION INSTRUCTIONS</strong><br><br>The
+    following instructions pertain to an application for a U.S. Fish and Wildlife
+    Service (USFWS) permit. For simplicity, all licenses, permits, registrations,
+    and certificates are referred to as a permit. <br><br><ul><li>An incomplete application
+    may cause delays in processing or may be returned to the applicant. Be sure you
+    are filling in the appropriate application form for the proposed
+    activity.</li><li>Please plan ahead. Allow at least 60 days for your application
+    to be processed. Some applications may take longer than 90 days to process.
+    (50 CFR 13.11)</li><li>Applications are processed in the order they are received.</li><li>For
+    all applications submitted to the Division of Management Authority (DMA) a physical
+    U.S. address is required. Province and Country blocks are provided for those USFWS
+    programs which use foreign addresses and are not required by DMA.</li><li>Mailing
+    address is address where communications from USFWS should be mailed if different
+    than applicant’s physical address.</li></ul><br /><br /><strong>Processing Fee</strong><br>An
+    application processing fee of <strong>$100.00</strong> is required at the time of
+    application, unless exempted under 50 CFR13.11(d)(3). The application processing
+    fee is assessed to partially cover the cost of processing a request. The fee does
+    not guarantee the issuance of a permit. Fees will not be refunded for applications
+    that are approved, abandoned, or denied. We may return fees for withdrawn applications
+    prior to any significant processing occurring.<br><br><strong>Signature</strong><br>
+    You will be asked for an electronic signature, which binds you to the statement of
+    certification. This means that you certify that you have read and understand the
+    regulations that apply to the permit. You also certify that everything included in
+    the application is true to the best of your knowledge. Be sure to read the statement
+    and re-read the application and your answers before
+    signing."
+  name: "Raptor propagation permit"
+  email_blocked_senders: []
+  email_responses: 1
+  enable_qa: false
+  enable_signatures: true
+  hide_responder_names: false
+  iframe_skip_preview: false
+  payment_amount_cents: 10000
+  require_payment: true
+  show_advanced_ratings: false
+  show_askers: true
+  show_respondents: true
+  statuses_visible_to_responders: false
+  summary: An application to the U.S. Fish and Wildlife Service for an individual
+    raptor propagation permit.
+response_fields:
+- label: Contact Information
+  field_options: {}
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldSectionBreak
+- label: Last name
+  field_options:
+    options:
+    - label: 'Yes'
+      checked: false
+    - label: 'No'
+      checked: false
+    include_other_option: false
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldText
+- label: First name
+  field_options:
+    options:
+    - label: 'Yes'
+      checked: false
+    - label: 'No'
+      checked: false
+    include_other_option: false
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldText
+- label: Middle name or initial
+  field_options:
+    options:
+    - label: 'Yes'
+      checked: false
+    - label: 'No'
+      checked: false
+    include_other_option: false
+  required: false
+  blind: false
+  admin_only: false
+  type: ResponseFieldText
+- label: Suffix
+  field_options:
+    options:
+    - label: 'Yes'
+      checked: false
+    - label: 'No'
+      checked: false
+    include_other_option: false
+  required: false
+  blind: false
+  admin_only: false
+  type: ResponseFieldText
+- label: Date of Birth
+  field_options: {}
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldDate
+- label: Social Security Number
+  field_options:
+    options:
+    - label: 'Yes'
+      checked: false
+    - label: 'No'
+      checked: false
+    include_other_option: false
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldNumber
+- label: Telephone number
+  field_options:
+    options:
+    - label: 'Yes'
+      checked: false
+    - label: 'No'
+      checked: false
+    include_other_option: false
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldNumber
+- label: Alternative telephone number
+  field_options:
+    options:
+    - label: 'Yes'
+      checked: false
+    - label: 'No'
+      checked: false
+    include_other_option: false
+  required: false
+  blind: false
+  admin_only: false
+  type: ResponseFieldNumber
+- label: Fax number
+  field_options:
+    options:
+    - label: 'Yes'
+      checked: false
+    - label: 'No'
+      checked: false
+    include_other_option: false
+  required: false
+  blind: false
+  admin_only: false
+  type: ResponseFieldNumber
+- label: Occupation
+  field_options:
+    options:
+    - label: 'Yes'
+      checked: false
+    - label: 'No'
+      checked: false
+    include_other_option: false
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldText
+- label: Affiliation/Doing Business As
+  field_options:
+    options:
+    - label: 'Yes'
+      checked: false
+    - label: 'No'
+      checked: false
+    include_other_option: false
+  required: false
+  blind: false
+  admin_only: false
+  type: ResponseFieldText
+- label: Physical Address
+  field_options:
+    options:
+    - label: 'Yes'
+      checked: false
+    - label: 'No'
+      checked: false
+    include_other_option: false
+    description: No P.O. Boxes are allowed.
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldAddress
+- label: Mailing Address
+  field_options:
+    options:
+    - label: 'Yes'
+      checked: false
+    - label: 'No'
+      checked: false
+    include_other_option: false
+    description: |-
+      Include if different than physical address;
+      include name of contact person if applicable.
+  required: false
+  blind: false
+  admin_only: false
+  type: ResponseFieldAddress
+- label: Type of Permit
+  field_options:
+    options:
+    - label: New Application
+      checked: false
+    - label: Requesting Renewal or Amendment of Permit
+      checked: false
+    include_other_option: false
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldRadio
+- label: 'Permit #'
+  field_options:
+    options:
+    - label: 'Yes'
+      checked: false
+    - label: 'No'
+      checked: false
+    include_other_option: false
+    description: If you are requesting a renewal or amendment of a permit, please
+      enter your permit number above.
+  required: false
+  blind: false
+  admin_only: false
+  type: ResponseFieldNumber
+- label: 'Do you currently have or have you ever had any Federal Fish and Wildlife
+    permits? '
+  field_options:
+    options:
+    - label: 'Yes'
+      checked: false
+    - label: 'No'
+      checked: false
+    include_other_option: false
+    description: ''
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldCheckboxes
+- label: 'If yes, list the number of the most current permit you have held or that
+    you are applying to renew/re-issue:'
+  field_options:
+    options:
+    - label: 'Yes'
+      checked: false
+    - label: 'No'
+      checked: false
+    include_other_option: false
+    description: ''
+  required: false
+  blind: false
+  admin_only: false
+  type: ResponseFieldNumber
+- label: Untitled
+  field_options:
+    description: 'Certification: I hereby certify that I have read and am familiar
+      with the regulations contained in Title 50, Part 13 of the Code of Federal Regulations
+      and the other and the other applicable parts in subchapter B of Chapter I of
+      Title 50, and I certify that the information submitted in this application for
+      a permit is complete and accurate to the best of my knowledge and belief. I
+      understand that any false statement herein may subject me to the criminal penalties
+      of 18 U.S.C. 1001.'
+    size: small
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldBlockOfText
+- label: Untitled Copy
+  field_options:
+    description: 'Certification: I hereby certify that I have read and am familiar
+      with the regulations contained in Title 50, Part 13 of the Code of Federal Regulations
+      and the other and the other applicable parts in subchapter B of Chapter I of
+      Title 50, and I certify that the information submitted in this application for
+      a permit is complete and accurate to the best of my knowledge and belief. I
+      understand that any false statement herein may subject me to the criminal penalties
+      of 18 U.S.C. 1001.'
+    size: small
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldPageBreak
+- label: Raptor Propagation Permit
+  field_options:
+    description: "(Migratory Bird Treaty Act, 50 CFR 21.30)"
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldSectionBreak
+- label: Untitled
+  field_options:
+    description: "A Federal Raptor Propagation Permit is required to take, possess,
+      buy and sell raptors for propagation purposes. You must be at least 18 years
+      of age to apply and have adequate facilities and experience.\n\nPlease provide
+      the following information. You should be as thorough and specific as possible
+      in your responses. Incomplete applications will be returned, delayed or abandoned. "
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldBlockOfText
+- label: 'State the purpose for which you seek a raptor propagation permit, and, where
+    applicable, describe your scientific or educational objectives. '
+  field_options: {}
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldParagraph
+- label: 'List each raptor you currently possess or intend to acquire for propagation
+    purposes by species, age (if known), sex (if known), date of acquisition, source,
+    and band number. '
+  field_options: {}
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldParagraph
+- label: 'List each raptor you possess for purposes other than propagation by species,
+    age (if known), sex (if known), date of acquisition, source, band number, and
+    the purpose for which it is possessed. '
+  field_options: {}
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldParagraph
+- label: 'Provide a detailed description of the nature and extent of your experience
+    handling and propagating raptors. Letters of recommendation from other propagators,
+    falconers, State wildlife personnel, or others would be helpful to us in evaluating
+    your experience. '
+  field_options: {}
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldParagraph
+- label: 'Provide a detailed description of your facilities and equipment. Include
+    dimensions (length, width, and height) of any structures intended for housing
+    birds, and a description of interior and exterior construction materials, such
+    as flooring and netting materials. '
+  field_options: {}
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldParagraph
+- label: Attach photographs of your facilities and equipment.
+  field_options:
+    file_types: ''
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldFile
+- label: 'Indicate whether you are requesting authorization to take birds (or eggs)
+    from the wild. If you are requesting such authorization, provide the species and
+    location of take, and explain why birds from captive stock are unsuitable. '
+  field_options:
+    file_types: ''
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldParagraph
+- label: 'You must retain records relating to the activities conducted under your
+    permit for at least 5 years after the date of expiration of your permit. Is the
+    physical address you provided in Section C on page 1 of this application the address
+    where your records will be kept? '
+  field_options:
+    options:
+    - label: 'Yes'
+      checked: false
+    - label: 'No'
+      checked: false
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldRadio
+- label: If you answered "No," provide the physical address of where your records will
+    be kept.
+  field_options: {}
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldAddress
+- label: Any permit issued as a result of this application is not valid unless you
+    also have any required State or tribal permits or approvals associated with the
+    activity. Have you obtained all required State or Tribal permits or approvals
+    to conduct this activity?
+  field_options:
+    options:
+    - label: 'Yes'
+      checked: false
+    - label: 'No'
+      checked: false
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldRadio
+- label: If you answered "Yes," attach a copy of the approval(s).
+  field_options:
+    file_types: docs
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldFile
+- label: "Disqualification factor: A conviction, or entry of a plea of guilty or nolo
+    contendere, for a felony violation of the Lacey Act, the Migratory Bird Treaty
+    Act, or the Bald and Golden Eagle Protection Act disqualifies any such person
+    from receiving or exercising the privileges of a permit, unless such disqualification
+    has been expressly waived by the Service Director in response to a written petition.
+    (50 CFR 13.21(c)) Have you been convicted, or entered a plea of guilty or nolo
+    contendere, forfeited collateral, or are currently under charges for any violations
+    of the laws mentioned above?"
+  field_options:
+    options:
+    - label: 'Yes'
+      checked: false
+    - label: 'No'
+      checked: false
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldRadio
+- label: 'If you answered “Yes,” provide the following information: a) date of charge,
+    b) charge(s), c) location of incident, d) court, and e) action taken for each
+    violation.'
+  field_options:
+    description: ''
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldParagraph
+rating_fields: []
+labels: []
+statuses:
+- name: Open
+- name: Under review
+- name: Dismissed
+- name: Issued
