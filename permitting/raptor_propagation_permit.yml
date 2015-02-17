@@ -409,14 +409,14 @@ response_fields:
   blind: false
   admin_only: false
   type: ResponseFieldFile
-- label: Disqualification factor: A conviction, or entry of a plea of guilty or nolo
+- label: "Disqualification factor: A conviction, or entry of a plea of guilty or nolo
     contendere, for a felony violation of the Lacey Act, the Migratory Bird Treaty
     Act, or the Bald and Golden Eagle Protection Act disqualifies any such person
     from receiving or exercising the privileges of a permit, unless such disqualification
     has been expressly waived by the Service Director in response to a written petition.
     (50 CFR 13.21(c)) Have you been convicted, or entered a plea of guilty or nolo
     contendere, forfeited collateral, or are currently under charges for any violations
-    of the laws mentioned above?
+    of the laws mentioned above?"
   field_options:
     options:
     - label: 'Yes'
