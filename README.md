@@ -23,7 +23,7 @@ Want to learn more about using templates in Screendoor? Visit DOBT’s [Knowledg
 To see how one of the templates above will look in Screendoor, click the “Preview this template on Screendoor” button.
 If you already have a Screendoor account, you can import the template and create a project from it right away:
 
-![import](http://take.ms/v6Tfi)
+![import](http://take.ms/NdSGc)
 
 If you don’t have an account, you can sign up by clicking “Sign up to use this template” at the bottom of the screen:
 
