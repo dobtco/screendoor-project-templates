@@ -20,15 +20,23 @@ The project template is one of many Screendoor features that serve this greater 
 Want to learn more about using templates in Screendoor? Visit DOBT’s [Knowledge Base](http://help.dobt.co/articles/screendoor/projects/templates.html).
 
 ## Preview a template
-To see how one of the templates above will look in Screendoor, click the “Preview this template on Screendoor” button. 
-If you already have a Screendoor account, you can [import the template](http://take.ms/v6Tfi) and create a project from it right away.
+To see how one of the templates above will look in Screendoor, click the “Preview this template on Screendoor” button.
+If you already have a Screendoor account, you can import the template and create a project from it right away:
 
-If you don’t have an account, you can sign up by clicking [“Sign up to use this template”](http://take.ms/AtGfL) at the bottom of the screen. 
+![import](http://take.ms/v6Tfi)
+
+If you don’t have an account, you can sign up by clicking “Sign up to use this template” at the bottom of the screen:
+
+![sign up](http://take.ms/AtGfL)
 
 ## Contribute a template
 Do you have a template that others would find useful? If so, we encourage you to share it in this very repo.
 
-First, export your template by navigating to [your list of project templates](https://screendoor.dobt.co/account/projects). Next, [click the “Export” link](http://take.ms/VI72A) next to the name of template you’d like to share. This downloads the template as a YAML file.
+First, export your template by navigating to [your list of project templates](https://screendoor.dobt.co/account/projects). Next, click the “Export” link next to the name of template you’d like to share:
+
+![export](http://take.ms/VI72A)
+
+This downloads the template as a YAML file.
 
 Fork this repo and clone it to your computer. Then, add and commit your template to your local repo and push it to your forked repo on Github. Finally, submit a pull request! Once we confirm that the template can be imported correctly into Screendoor, we'll include it here.
 
