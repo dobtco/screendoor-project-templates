@@ -1,7 +1,7 @@
 Screendoor Project Templates
 ============================
 
-| Name | Author | Actions |
+| Name | Author | |
 | --- | --- | --- |
 | [City Data Analyst](https://github.com/dobtco/screendoor-project-templates/blob/master/city_data_analyst.yml) | Kari Mah | [![preview on screendoor]](https://screendoor.dobt.co/preview_template?url=https://github.com/dobtco/screendoor-project-templates/blob/master/city_data_analyst.yml) |
 | [Foundation Letter of Inquiry](https://github.com/dobtco/screendoor-project-templates/blob/master/foundation_letter_of_inquiry.yml) | Kari Mah | [![preview on screendoor]](https://screendoor.dobt.co/preview_template?url=https://github.com/dobtco/screendoor-project-templates/blob/master/foundation_letter_of_inquiry.yml) |
