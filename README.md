@@ -8,6 +8,7 @@ Screendoor Project Templates
 | [Post-event Survey](https://github.com/dobtco/screendoor-project-templates/blob/master/post_event_survey.yml) | Kari Mah | [![preview on screendoor]](https://screendoor.dobt.co/preview_template?url=https://github.com/dobtco/screendoor-project-templates/blob/master/post_event_survey.yml) |
 | [Public Records Request](https://github.com/dobtco/screendoor-project-templates/blob/master/public_records_request.yml) | Kari Mah | [![preview on screendoor]](https://screendoor.dobt.co/preview_template?url=https://github.com/dobtco/screendoor-project-templates/blob/master/public_records_request.yml) |
 | [Raptor Propagation Permit](https://github.com/dobtco/screendoor-project-templates/blob/master/raptor_propagation_permit.yml) | Kari Mah | [![preview on screendoor]](https://screendoor.dobt.co/preview_template?url=https://github.com/dobtco/screendoor-project-templates/blob/master/raptor_propagation_permit.yml) |
+| [Grant Application](https://github.com/dobtco/screendoor-project-templates/blob/master/grant_application.yml) | Kari Mah | [![preview on screendoor]](https://screendoor.dobt.co/preview_template?url=https://github.com/dobtco/screendoor-project-templates/blob/master/grant_application.yml) |
 
 [preview on screendoor]: http://dobt-misc.s3.amazonaws.com/static/previewtemplate.png
 
