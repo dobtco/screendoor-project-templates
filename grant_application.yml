@@ -1,5 +1,6 @@
 ---
 project_params:
+  name: Grant Application
   after_response_email: true
   after_response_page: true
   after_response_page_html: Thank you for submitting an application to the&nbsp;Maryland
