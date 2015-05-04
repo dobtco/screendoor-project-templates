@@ -1,6 +1,5 @@
 ---
 project_params:
-  name: Grant Application
   after_response_email: true
   after_response_page: true
   after_response_page_html: Thank you for submitting an application to the&nbsp;Maryland
@@ -51,7 +50,7 @@ project_params:
   statuses_visible_to_responders: false
   summary: The Maryland Small Grants Program supports smaller Maryland nonprofits
     seeking general operating support, program support, or certain capital requests.
-  name: Maryland Small Grants Program
+  name: Grant Application
 response_fields:
 - label: Organizational Information
   field_options: {}
