@@ -1,0 +1,476 @@
+---
+project_params:
+  after_response_email: true
+  after_response_page: true
+  after_response_page_html: Thank you for submitting an application to the&nbsp;Maryland
+    Small Grants Program! You will hear from us in under 50 days.&nbsp;
+  identification_level: 2
+  automatically_approve_edits: false
+  automatically_release_responses_for_edits: false
+  contact_email: kari@dobt.co
+  description: 'Since its inception, the Maryland Small Grants Program has awarded
+    hundreds of grants totaling more than $12 million. All that is required is a simple
+    proposal no longer than five pages. In most cases, it takes only 50 days to go
+    from “Our application is enclosed” to “Your check is in the mail.”<br><br>The
+    Maryland Small Grants Program differs from The Little Neck&nbsp;Foundation’s standard
+    grantmaking process. There is no deadline for grant requests within the Maryland
+    Small Grants Program and a Letter of Inquiry (LOI) is not required.<br><ul><li>At
+    the conclusion of two years of MSGP funding, the grantee may apply for a subsequent
+    grant of up to two additional years of funding, pending an invitation from Foundation
+    staff (via phone or email) and submittal of all previous requirements.</li><li>Grant
+    requests in subsequent years may not exceed $50,000 per fiscal year.</li><li>An
+    organization is eligible for four years of funding in any five year period. After
+    four years of consecutive funding, a grantee must wait at least one fiscal year
+    before reapplying to MSGP.</li></ul>Grantees may choose to enter the full grant
+    process, but must meet requirements for the given program area, including geography.<br>The
+    Maryland Small Grants Program includes all Foundation grantmaking areas: Basic
+    Human Needs &amp; Health; Disabilities; Education, US; General Community Support;
+    Older Adults; and Workforce Development.<em><br></em><br><h4><strong>Who is eligible?</strong></h4>For
+    consideration in the Maryland Small Grants Program, an applicant must:<br><ul><li>Be
+    a nonprofit organization with 501(c)(3) status, and in operation for a minimum
+    of three years</li><li>Have a Maryland budget of less than $3 million (do not
+    include in-kind or pro bono goods/services in this calculation) and complete an
+    external financial review (preferably an audit)</li><li>Provide direct service
+    to residents of the State of Maryland</li><li>Meet the Weinberg Foundation’s mission
+    of providing direct services to poor and vulnerable populations</li><li>Request
+    funds for general operating support, program support, or capital projects </li><li>Submit
+    requests that represent no more than 25% of an organization’s total annual operating
+    budget</li></ul>'
+  email_blocked_senders: []
+  email_responses: 1
+  enable_qa: false
+  enable_signatures: false
+  hide_responder_names: false
+  iframe_skip_preview: true
+  payment_amount_cents: 
+  require_payment: false
+  show_advanced_ratings: false
+  show_askers: true
+  show_respondents: true
+  statuses_visible_to_responders: false
+  summary: The Maryland Small Grants Program supports smaller Maryland nonprofits
+    seeking general operating support, program support, or certain capital requests.
+  name: Grant Application
+response_fields:
+- label: Organizational Information
+  field_options: {}
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldSectionBreak
+- label: Name of organization
+  field_options: {}
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldText
+- label: Organization website
+  field_options: {}
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldWebsite
+- label: Your title
+  field_options: {}
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldText
+- label: Your phone number
+  field_options: {}
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldText
+- label: What is the purpose of your organization?
+  field_options:
+    description: Include the organization's mission and its geographic scope of services.
+    size: medium
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldParagraph
+- label: How many years has your organization has been in operation?
+  field_options:
+    min: ''
+    units: years
+    description: We will consider grant requests only from organizations that have
+      been in operation for three or more years.
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldNumber
+- label: What is the percentage of your organization's clients that fall below the
+    median income within your geographic area?
+  field_options:
+    units: "%"
+    min: ''
+    max: ''
+    description: ''
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldNumber
+- label: Untitled
+  field_options: {}
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldPageBreak
+- label: Funding Request
+  field_options: {}
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldSectionBreak
+- label: What type of funding are you applying for?
+  field_options:
+    options:
+    - label: General operating support
+      checked: false
+    - label: Program support
+      checked: false
+    - label: Capital project
+      checked: false
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldRadio
+- label: What is the total amount you are requesting from the Maryland Small Grants
+    Program?
+  field_options: {}
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldPrice
+- label: What is the total budget for your proposed program?
+  field_options:
+    conditions:
+    - action: show
+      method: eq
+      value: Program support
+      response_field_label: What type of funding are you applying for?
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldPrice
+- label: What is the total budget for your proposed capital project?
+  field_options:
+    conditions:
+    - action: show
+      method: eq
+      value: Capital project
+      response_field_label: What type of funding are you applying for?
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldPrice
+- label: Over how many months would you like us to disburse the award?
+  field_options:
+    units: months
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldNumber
+- label: Untitled Copy
+  field_options: {}
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldPageBreak
+- label: Proposed Goals and Activities
+  field_options: {}
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldSectionBreak
+- label: What is the purpose of the grant?
+  field_options:
+    description: Include the specific population served, any specific program or agency
+      objectives for the current year, and the unduplicated number of individuals
+      served in the most recent fiscal year.
+    size: large
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldParagraph
+- label: Which area of direct service does your grant request fall?
+  field_options:
+    options:
+    - label: Food security
+      checked: false
+    - label: Homelessness
+      checked: false
+    - label: Health
+      checked: false
+    - label: Family safety
+      checked: false
+    - label: Economic assistance
+      checked: false
+    - label: Education
+      checked: false
+    - label: Children, youth & families
+      checked: false
+    - label: Workforce development
+      checked: false
+    description: You can choose more than one service area.
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldCheckboxes
+- label: ''
+  field_options:
+    conditions:
+    - action: show
+      method: eq
+      response_field_label: Name of organization
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldPageBreak
+- label: History with the Little Neck Foundation
+  field_options:
+    conditions:
+    - action: show
+      method: eq
+      response_field_label: Name of organization
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldSectionBreak
+- label: Have you applied for funding from The Little Neck Foundation before?
+  field_options:
+    options:
+    - label: 'Yes'
+      checked: false
+    - label: 'No'
+      checked: false
+    description: ''
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldRadio
+- label: Have you received a grant from The Little Neck Foundation?
+  field_options:
+    options:
+    - label: 'Yes'
+      checked: false
+    - label: 'No'
+      checked: false
+    description: ''
+    conditions:
+    - action: show
+      method: eq
+      value: 'Yes'
+      response_field_label: Have you applied for funding from The Little Neck Foundation
+        before?
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldRadio
+- label: Describe the grant request(s) that was declined
+  field_options:
+    options:
+    - label: 'Yes'
+      checked: false
+    - label: 'No'
+      checked: false
+    description: Include the date of each request.
+    conditions:
+    - action: show
+      method: eq
+      value: 'No'
+      response_field_label: Have you received a grant from The Little Neck Foundation?
+    size: medium
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldParagraph
+- label: Describe the grant(s)
+  field_options:
+    options:
+    - label: 'Yes'
+      checked: false
+    - label: 'No'
+      checked: false
+    description: For each grant, include the amount and the dates of the grant period.
+    conditions:
+    - action: show
+      method: eq
+      value: 'Yes'
+      response_field_label: Have you received a grant from The Little Neck Foundation?
+    size: medium
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldParagraph
+- label: Untitled Copy
+  field_options: {}
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldPageBreak
+- label: Additional Sources of Funding
+  field_options:
+    options:
+    - label: 'Yes'
+      checked: false
+    - label: 'No'
+      checked: false
+    conditions:
+    - action: show
+      method: eq
+      value: Program support
+      response_field_label: What type of funding are you applying for?
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldSectionBreak
+- label: Is this specific proposal under review with any other funders?
+  field_options:
+    options:
+    - label: 'Yes'
+      checked: false
+    - label: 'No'
+      checked: false
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldRadio
+- label: Requests submitted to other funders
+  field_options:
+    columns:
+    - label: Funder name
+    - label: Amount requested
+    minrows: ''
+    maxrows: ''
+    conditions:
+    - action: show
+      method: eq
+      value: 'Yes'
+      response_field_label: Is this specific proposal under review with any other
+        funders?
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldTable
+- label: Untitled
+  field_options: {}
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldPageBreak
+- label: Financial Information
+  field_options:
+    conditions:
+    - action: show
+      method: eq
+      response_field_label: Name of organization
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldSectionBreak
+- label: Fiscal year end date
+  field_options: {}
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldDate
+- label: 'Proof of 501(c)(3) nonprofit status '
+  field_options:
+    file_types: docs
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldFile
+- label: Form 990 for the past two years for which your organization has filed
+  field_options:
+    file_types: docs
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldFile
+- label: Two most recent audited financial statements
+  field_options:
+    file_types: docs
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldFile
+- label: Last year's revenue and expense budget
+  field_options:
+    file_types: docs
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldFile
+- label: This year's revenue and expense budget
+  field_options:
+    file_types: docs
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldFile
+- label: Next year's revenue and expense budget
+  field_options:
+    file_types: docs
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldFile
+- label: Program budget
+  field_options:
+    conditions:
+    - action: show
+      method: eq
+      value: Program support
+      response_field_label: What type of funding are you applying for?
+    file_types: docs
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldFile
+- label: Capital project budget
+  field_options:
+    conditions:
+    - action: show
+      method: eq
+      value: Capital project
+      response_field_label: What type of funding are you applying for?
+    file_types: docs
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldFile
+- label: Capital project vendor's cost estimates
+  field_options:
+    conditions:
+    - action: show
+      method: eq
+      value: Capital project
+      response_field_label: What type of funding are you applying for?
+    file_types: docs
+  required: true
+  blind: false
+  admin_only: false
+  type: ResponseFieldFile
+rating_fields:
+- label: Organizational health
+  description: Is the organizational in good financial health? Is it well-managed?
+  weight: 1.0
+  type: RatingFields::FreeResponse
+  response_field: 
+- label: Program alignment
+  description: How well-aligned is the organization's goals to the Foundation's program
+    goals and strategies? If the organization is applying for general operating support
+    or capital project support, consider the organization's overall goals. If the
+    organization is applying for project support, consider both its overall and project
+    goals.
+  weight: 1.0
+  type: RatingFields::FreeResponse
+  response_field: What is the purpose of the grant?
+labels: []
+statuses:
+- name: Under review
+- name: Awarded
+- name: Denied
